@@ -6,3 +6,4 @@ Added two Markdown files depicting the difference between BrowserJS & NodeJS, HT
 
 **Assignment-2 (dt: 16-06-2021):**
 Added HTML page descripting my Bio (Portfolio). File name: Abhishek's Portfolio.html
+Added two Markdown files depicting the difference between section, div & article tags and Datatypes of Javascript
