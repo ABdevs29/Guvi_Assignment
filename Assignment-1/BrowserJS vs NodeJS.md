@@ -2,7 +2,7 @@
 
 Sl No. | Browser JS | NodeJS
 ------ | ---------- | ------
-1. | Javascript is a programming language used to write scripts for websites | NodeJS is Javascript runtime environment
+1.  Javascript is a programming language used to write scripts for websites | NodeJS is Javascript runtime environment
 2. | JS can only be run in browsers | NodeJS can be run outside of browsers
 3. | JS is used in Client-side | NodeJS is mostly used in Server-side
 4. | JS can add HTML tags and play with the  DOM (Document Object Model) | NodeJS can’t add HTML tags
