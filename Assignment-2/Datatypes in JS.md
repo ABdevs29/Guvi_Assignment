@@ -1,4 +1,4 @@
-#Datatypes in JavaScript:
+# Datatypes in JavaScript:
 
 **typeof(1):** *Number* datatype which can hold an integer.
 **typeof(1.1):** *Number* datatype which can hold an floating-type number along with an integer.
