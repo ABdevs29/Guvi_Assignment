@@ -4,7 +4,7 @@
 * **typeof(1.1):** *Number* datatype which can hold an floating-type number along with an integer.
 * **typeof('1.1'):** *String* which represents textual data.
 * **typeof(true):** *Boolean* which represents either true or false.
-* **typeof(null):** *null* denotes something with no value.
+* **typeof(null):** *Object* denotes something with no value.
 * **typeof(undefined)** *undefined* denotes a variable whose value has not been initialised.
 * **typeof([])** *Object* which in common term denotes an object of Array.
 * **typeof({})** *Object* which denotes key-value pairs of collection of data.
