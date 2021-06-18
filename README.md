@@ -7,3 +7,8 @@
 **Assignment-2 (dt: 16-06-2021):**
 1. Added HTML page descripting my Bio (Portfolio). File name: Abhishek's Portfolio.html
 2. Added two Markdown files depicting the difference between section, div & article tags and Datatypes of Javascript
+
+
+**Assignment-3 (dt: 17-06-2021):**
+1. Added JS script for displaying all flags from Restcountries API. File name: display flags.js
+2. Added JS script for displaying the name, region, sub region and population from Restcountries API. File name: rest_countries.js
