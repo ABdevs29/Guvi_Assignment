@@ -19,4 +19,15 @@ let resumeObj = {
             "GitHub": "https://github.com/ABdevs29", 
             "Email id": "abhishek.elmoro@gmail.com" } }
   
-  console.log(resumeObj);
+console.log(resumeObj); //whole data
+
+console.log(resumeObj["ACADEMIC PROFILE"]["10th std"].Marks); //specific data
+
+//Iterating over specific data in JSON
+for (let i in resumeObj) {
+  if (i == "SKILLS LEARNING") {
+    for (let j in resumeObj[i]) {
+      console.log(resumeObj[i][j]);
+    }
+  }
+}
