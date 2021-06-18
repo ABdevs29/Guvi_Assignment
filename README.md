@@ -13,3 +13,6 @@
 1. Added JS script for iterating over given object in for, for each, for in and for of loops. File name: iterations_task.js
 2. Added JS script for displaying all flags from Restcountries API. File name: display flags.js
 3. Added JS script for displaying the name, region, sub region and population from Restcountries API. File name: rest_countries.js
+
+**Assignment-4 (dt: 18-06-2021):**
+1. Added JS script for adding resume data into JSON format. File name: resume_json.js
