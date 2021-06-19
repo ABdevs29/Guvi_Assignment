@@ -16,3 +16,4 @@
 
 **Assignment-4 (dt: 18-06-2021):**
 1. Added JS script for input of resume data into JSON format. File name: resume_json.js
+2. Added JS script for comparing two JSON having same properties but not in order. File name: object_compare.js
