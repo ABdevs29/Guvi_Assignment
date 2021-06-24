@@ -1,6 +1,6 @@
 //Movie Class
 class movie {
-    constructor(title, studio, rating = "PG") {
+    constructor(title, studio, rating = "PG") { //Rating PG is default
       this.title = title;
       this.studio = studio;
       this.rating = rating;
