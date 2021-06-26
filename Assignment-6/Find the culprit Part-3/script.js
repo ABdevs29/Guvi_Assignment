@@ -53,7 +53,17 @@ ano(arr); //Input need to be passed to invoke the function
 
 
 //Question-5: Fix the code to return the Prime numbers
-
+const newArray=[1,3,2,5,10];
+const myPrime=newArray.filter(num=>{ //.filter is used on the newArray with num as argument
+ for(let i=2;i<=num;i++){ //num value checking starts from 2
+     if (num == 2|| num == 3 || num == 5 || num == 7) { //If num is either 2,3,5,7 then it is a prime number
+         return true;
+     } else if(num % 2==0 && num % 3 == 0 && num % 5 == 0 && num % 7 == 0) { //If num is divisible by either 2,3,5,7 then it is not a prime number
+         return false;
+     }
+ }
+});
+console.log(myPrime);
 
 
 
@@ -111,21 +121,67 @@ var arr = [1, 2, 3, 5, 7, 79, 7, 2, 6, 9, 4];
 
 
 //Question-11: Fix the code to remove duplicates.
-
+var res = function(arr){
+newArr = []; //Empty newArray to be initilaised outside the for loop
+for(var i=0; i < arr.length; i++){
+if(newArr.indexOf(arr[i]) == -1) {
+newArr.push(arr[i]);
+} }
+console.log(newArr);
+}
+res(["guvi","geek","guvi","duplicate","geek"]);
 
 
 
 //Question-12: Fix the code to give the below output:
-
+var array =[[["firstname","vasanth"],["lastname","Raje"],["age",24],["role","JSWizard"]],[["firstname","Sri"],["lastname","Devi"],["age",28],["role", "Coder"]]];
+var final=[]
+var new_object = {}; //new_object to be created 
+var final = []; //final to be initialised to an array
+while(array.length!=0) {
+    var outer_remove = array.shift();
+    new_object = {}; //new_object to be made empty at the start of each iteration
+    while(outer_remove.length!=0){
+        var inner_remove = outer_remove.shift();
+        var key = inner_remove[0];
+        var value =inner_remove[1];
+        new_object[key]=value;
+    }
+    final.push(new_object);
+}
+console.log(final); //final value ot be consoled
 
 
 
 //Question-13: Sum of odd numbers in an array
-
+var as=[12,34,5,6,2,56,6,2,1];
+var s=as.reduce(function(a,c){
+ if(c % 2 != 0)
+ {
+ return a + c;
+ }
+ return a;
+}, 0); //Total a needs to be initialised to 0
+console.log(s);
 
 
 
 //Question-14: Swap the odd and even digits
-
+aa = data=>{
+    var a=data;
+    var l=""; //l value ot be initalised outside the for loop
+   for(i=0;i<a.length;i++){ // i to be iterated from 0 to a.length-1
+    var s=a[i+1]
+    var b=a[i]
+    l+=s
+    l+=b
+    i++;
+   }
+   if((a.length%2)!=0){
+    l+=a[a.length-1]
+   }
+   console.log(l);
+   }
+   aa("1234");
 
 
