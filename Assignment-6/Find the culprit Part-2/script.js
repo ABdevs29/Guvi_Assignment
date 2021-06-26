@@ -124,7 +124,28 @@ console.log(str_all);
 
 
 //Question-9: Write a code to replace the array value — If the index is even, replace it with ‘even’. Output: [ [“even”, 2, “even”, 4, “even”], [6, “even”, 8, “even”, 10, …] ]
+var numsArr = [[1, 2, 3, 4, 5],[ 6, 7, 8, 9, 10, 11]];
+var str_all=0;
+var previous_array = []; //Created empty array to store previous inner array
+for (var i = 0; i < numsArr.length; i++) {
+ var inner_array = numsArr[i];
+ for(var j = 0 ; j < inner_array.length;j++ ) { //j to be incremented
+      if (previous_array.length % 2 == 0) { //If previous_array length is odd, the even indexes in the inner_array will be set to "even"
+        if(j % 2 == 0 )
+      {
+         inner_array[j] = "even";
+       }
+      } else { //If previous_array length is even, the odd indexes in the inner_array will be set to "even"
+        if(j % 2 != 0 )
+      {
+         inner_array[j] = "even";
+       }
+      }
 
+}
+previous_array = inner_array;
+}
+console.log(numsArr);
 
 
 //Question-10: Write a code to print elements in the inner arrays in reverse. Output: 11 10 9 8 7 6 5 4 3 2 1
