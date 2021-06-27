@@ -32,3 +32,11 @@
 2. Added JS script for creating a circle class. File name: circle_class.js
 3. Added JS script for creating a person class. File name: person_class.js
 4. Added JS script for calculating Uber price. File name: uberPrice_class.js
+
+**Assignment-8 (dt: 25-06-2021):**
+1. Added JS script for using array methods on REST countries JSON. File name: res_countries_array_methods.js
+
+
+
+
+
