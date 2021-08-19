@@ -36,6 +36,9 @@
 **Assignment-8 (dt: 25-06-2021):**
 1. Added JS script for using array methods on REST countries JSON. File name: res_countries_array_methods.js
 
+**SQL Bolt Executed Queries Assignment (dt: 19-08-2021)**
+  Lessons 1 to 18
+
 
 
 
