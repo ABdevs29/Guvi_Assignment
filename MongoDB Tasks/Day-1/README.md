@@ -1,10 +1,10 @@
-1. Find all the information about each products
+Find all the information about each products
 
   db.products.find()
 
 
 
-2. Find the product price which are between 400 to 800
+Find the product price which are between 400 to 800
 
   db.products.find({
     product_price: {
@@ -15,7 +15,7 @@
 
 
 
-3. Find the product price which are not between 400 to 600
+Find the product price which are not between 400 to 600
 
   db.products.find({
     product_price: {
@@ -28,7 +28,7 @@
 
 
 
-4. List the four product which are greater than 500 in price
+List the four product which are greater than 500 in price
 
   db.products.find({
     product_price: {
@@ -38,7 +38,7 @@
 
 
 
-5. Find the product name and product material of each products
+Find the product name and product material of each products
 
   db.products.find({},
   {
@@ -48,7 +48,7 @@
 
 
 
-6. Find the product with a row id of 10
+Find the product with a row id of 10
 
   db.products.find({
     "id": "10"
@@ -56,7 +56,7 @@
 
 
 
-7. Find only the product name and product material
+Find only the product name and product material
 
   db.products.find({
     "id": "10"
@@ -68,7 +68,7 @@
 
 
 
-8. Find all products which contain the value of soft in product material
+Find all products which contain the value of soft in product material
 
   db.products.find({
     "product_material": "Soft"
@@ -76,7 +76,7 @@
 
  
  
-9. Find products which contain product color indigo  and product price 492.00
+Find products which contain product color indigo  and product price 492.00
 
   db.products.find({
     "$or": [
@@ -91,7 +91,7 @@
 
 
 
-10. Delete the products which product price value are same
+Delete the products which product price value are same
 
   db.products.deleteMany({
     "product_price" : {
